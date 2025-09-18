@@ -1,0 +1,9 @@
+.nav-item-hover {
+  cursor: pointer;
+  color: white;
+  transition: color 0.3s;
+}
+
+.nav-item-hover:hover {
+  color: #ffc107; /* Bootstrap warning color */
+}
