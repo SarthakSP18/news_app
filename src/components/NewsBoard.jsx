@@ -40,7 +40,7 @@ const NewsBoard = ({ category }) => {
               >
                 <div className="row justify-content-center">
                   {group.map((news, index) => (
-                    <div className="col-md-4 d-flex justify-content-center" key={index}>
+                    <div className="col-md-4 d-flex justify-content-center " key={index}>
                       <NewsItem
                         title={news.title}
                         description={news.description}
@@ -73,8 +73,8 @@ const NewsBoard = ({ category }) => {
           </button>
         </div>
       ) : (
-        <p className="text-center">
-          Some Internal Error, Back to you soon...
+        <p className="text-center text-white">
+          Some API Error, Back to you soon...
         </p>
       )}
     </div>
